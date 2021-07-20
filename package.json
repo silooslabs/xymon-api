@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
+    "xymon": "^1.0.1"
+  },
+  "name": "xymon-api",
+  "version": "0.0.1",
+  "description": "RESTish HTTP proxy for interacting with Xymond.",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6"
+  },
+  "scripts": {
+    "start": "node index",
+    "start:debug": "DEBUG=api:* node index",
+    "lint": "eslint .",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "xymon",
+    "json",
+    "api",
+    "rest",
+    "proxy",
+    "http"
+  ],
+  "license": "ISC"
+}
