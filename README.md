@@ -13,6 +13,6 @@ npm install
 cp .env.example .env
 # modify .env to point to xymon daemon
 npm run start:debug
-``
+```
 
 Visit http://localhost:8081/docs
